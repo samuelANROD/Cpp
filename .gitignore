@@ -1,0 +1,25 @@
+# CLion
+.idea/
+
+# CMake
+cmake-build-*/
+build/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+compile_commands.json
+
+# Compiled binaries and object files
+*.o
+*.obj
+*.a
+*.so
+*.dll
+*.exe
+*.out
+
+# Debug files
+*.dSYM/
+core
+core.*
