@@ -9,6 +9,13 @@ int main () {
     std::string name = "samuel";
     bool boolean = true;
 
+    //demonstração com cin(input)
+    int x, y, z;
+    std::cout << "digite valores de x, y e z:" << std::endl;
+    std::cin >> x;
+    std::cin >> y;
+    std::cin >> z;
+
     //igual a qualquer linguagem
     //só para imprimir valor que é assim usando o cout
     //e esse sistema de << / >>
@@ -18,5 +25,7 @@ int main () {
     std::cout << "my letter: " << letter <<std::endl;
     std::cout << "my bool: " << boolean <<std::endl;
 
+
+    std::cout << x + y + z << std::endl;
     return 0;
 }
