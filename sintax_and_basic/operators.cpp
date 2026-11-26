@@ -38,5 +38,9 @@ int main() {
     // x > 3 || x < 10; OR
     // !(x > 3 && x < 10); NOT
 
+    std::cout << (x > 3 && x < 10);
+    std::cout << (x > 3 || x < 10);
+    std::cout << !(x > 3 && x < 10);
+
     return 0;
 }
